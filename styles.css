@@ -41,7 +41,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #ff9b2b, rgba(33, 33, 33, 0.7)), url('https://images.unsplash.com/photo-1573512150369-930c4c9e650e');
+    background: linear-gradient(135deg, rgba(33, 33, 33, 0.7), rgba(10, 10, 10, 0.8)), url('hero-background.png');
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -54,17 +54,6 @@ body {
 
 .hero-text {
     max-width: 800px;
-}
-
-.hero h2 {
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 20px;
-    margin-bottom: 40px;
 }
 
 .cta-button {
@@ -180,13 +169,13 @@ footer {
 }
 
 .hero h2 {
-    font-size: 48px;
+    font-size: 62px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 40px;
 }
 
