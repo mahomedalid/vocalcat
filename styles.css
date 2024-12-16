@@ -110,6 +110,10 @@ body {
     text-align: left;
 }
 
+.plan-pro {
+    background-color: #FFD966;
+    color: #111;
+}
 
 .feature-item h3, .plan h3 {
     font-size: 24px;
@@ -198,6 +202,19 @@ body {
 
 .cta-button:hover {
     background-color: #e08d00;
+}
+
+.plan {
+    position: relative;
+    padding-bottom: 70px; /* Adjust as needed */
+    margin-bottom: 30px;
+}
+
+.plan-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* Center the button horizontally */
 }
 
 /* Footer */
