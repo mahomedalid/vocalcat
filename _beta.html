@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beta Program - Terms and Conditions</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #111;
+            color: #fff;
+        }
+
+        .navbar .logo img {
+            height: 40px;
+        }
+
+        .navbar .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .navbar .nav-links a:hover {
+            color: #ff9800;
+        }
+
+        /* Section */
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .terms-content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .terms-content h2, .terms-content h3 {
+            color: #222;
+            margin-bottom: 0px;
+        }
+
+        .terms-content p {
+            font-size: 16px;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .terms-content ul {
+            text-align: left;
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+
+        .terms-content li {
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        /* Button Styling */
+        .button-primary {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #111;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .button-primary:hover {
+            background-color: #ff9800;
+            color: #fff;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .navbar .nav-links {
+                margin-top: 10px;
+            }
+
+            .terms-content {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .terms-content h2 {
+                font-size: 24px;
+            }
+
+            .terms-content p {
+                font-size: 14px;
+            }
+        }
+
+        h3 {
+            padding: 12px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="vocalcat.png" alt="VocalCat Logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+        </div>
+    </div>
+
+    <!-- Beta Program Section -->
+    <div class="section">
+        <div class="terms-content">
+            <h2>Welcome to the VocalCat Beta Program!</h2>
+            <h3>Terms and Conditions</h3>
+            <div style="font-weight: bold; font-size: 1.1em;">
+                <br />By participating, you agree to the following:</div>
+            
+            <ul>
+                <li>Information may be lost, and features may not be available at all times.</li>
+                <li>No official customer support is provided for beta features, but you are free to contact us anytime.</li>
+                <li>We do not guarantee the availability, functionality, or performance of beta features.</li>
+                <li>We are not liable for any data loss or service disruption during the beta period.</li>
+            </ul>
+
+            <h3>Benefits</h3>
+            <ul>
+                <li>Lifetime access to affiliate programs, exclusive discounts and exclusive swag.</li>
+                <li>Free access to all premium features during the beta, no cost.</li>
+                <li>Early access to new features and insights. You will also shape the roadmap of our product.</li>
+                <li>We would love you for life, we will boost your content, spotlight you in our networks, and be forever grateful.</li>
+            </ul>
+
+            <h3>Your Role</h3>
+            <ul>
+                <li>Share feedback on the overall experience. The most the better.</li>
+                <li>Report bugs and suggest improvements.</li>
+                <li>Post cat pictures in your socials. <i>(non-negotiable)</i></li>
+                <li>We do not like surveys. But we LOVE feedback.</li>
+            </ul>
+
+            <br />
+
+            <p><strong>Last updated:</strong> December 2nd, 2024</p>
+
+            <div style="padding: 20px; padding-top: 30px">
+                <a href="javascript:void(0)" class="button-primary" onclick="redirectToBetaUrl();">Join the Beta Program</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 VocalCat. All rights reserved.</p>
+    </footer>
+
+    <!-- Script -->
+    <script>
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "p9b5wrtfh5");
+
+        function getInvitationCode() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('ic');
+        }
+
+        function redirectToBetaUrl() {
+            const invitationCode = getInvitationCode();
+            const betaUrl = invitationCode 
+                ? `https://beta.vocalcat.com/?invitationCode=${invitationCode}` 
+                : 'https://www.vocalcat.com/waitlist';
+            window.location.href = betaUrl;
+        }
+    </script>
+</body>
+</html>
