@@ -1,0 +1,5 @@
+/social/*
+  Content-Type: application/activity+json
+
+/.well-known/webfinger
+  Content-Type: application/activity+json    
