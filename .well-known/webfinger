@@ -1,0 +1,13 @@
+{  
+    "subject": "acct:me@vocalcat.com",
+    "aliases": [
+      "https://vocalcat.com/social/@me"
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "type": "application/activity+json",
+        "href": "https://vocalcat.com/social/@me"
+      }
+    ]
+}
