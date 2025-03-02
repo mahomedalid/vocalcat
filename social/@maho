@@ -1,6 +1,6 @@
 {
   "@context": "https://www.w3.org/ns/activitystreams",
-  "id": "https://vocalcat.com/@maho",
+  "id": "https://vocalcat.com/social/@maho",
   "type": "Person",
   "following": "https://hachyderm.io/users/mapache/following",
   "followers": "https://hachyderm.io/users/mapache/followers",
@@ -25,8 +25,8 @@
   "publicKey": {
     "@context": "https://w3id.org/security/v1",
     "@type": "Key",
-    "id": "https://vocalcat.com/@maho#main-key",
-    "owner": "https://vocalcat.com/@maho",
+    "id": "https://vocalcat.com/social/@maho#main-key",
+    "owner": "https://vocalcat.com/social/@maho",
     "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA68oSTjzLryZ+lLIu8N5+\nCZdQPKaN6xZCY93uzJ8b4wjOecEykQcGU2J+ejOzMXHP4o4N+Rc0xnxyAs9ZN5AX\ndYSObpdfGQvrvdHanu+iTyRKETKMbSHtJzk5dZW8l+pPnX2YWKVgSfCG2SALZprg\nzxyhbtTLq8JoN8b5TgEA1B12Rya3aBNNXDT1/eeU+/HqwtKN2nLAdvACbccPAtg1\nVeKdcSgmS2o51JR4MjJWcCgM2HrAZUepF1XM59Yeq136QGviJpfAFX6gS7POvi7r\n3iaH0GzuUzR+WJSHgoJ65VzC9wy4Vpw/jt8CNtlW13iFRasHARTwFe+1FhuZayPG\neQIDAQAB\n-----END PUBLIC KEY-----"
   },
   "attachment": [
