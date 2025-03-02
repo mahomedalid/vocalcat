@@ -39,7 +39,7 @@
         }
       }
     ],
-    "id": "https://vocalcat.com/social/@me",
+    "id": "https://vocalcat.com/social/@vocalcat",
     "type": "Person",
     "following": "https://mastodon.social/users/vocalcat/following",
     "followers": "https://mastodon.social/users/vocalcat/followers",
@@ -50,7 +50,7 @@
     "preferredUsername": "vocalcat",
     "name": "Vocal Cat",
     "summary": "<p>In this account we talk about social media and cats. Not necessarily in that order.</p><p>Building the best crossposting tool: <a href=\"https://www.vocalcat.com\" target=\"_blank\" rel=\"nofollow noopener\" translate=\"no\"><span class=\"invisible\">https://www.</span><span class=\"\">vocalcat.com</span><span class=\"invisible\"></span></a></p><p><a href=\"https://mastodon.social/tags/SocialMedia\" class=\"mention hashtag\" rel=\"tag\">#<span>SocialMedia</span></a> <a href=\"https://mastodon.social/tags/Cats\" class=\"mention hashtag\" rel=\"tag\">#<span>Cats</span></a></p>",
-    "url": "https://vocalcat.com/social/@me",
+    "url": "https://vocalcat.com/social/@vocalcat",
     "manuallyApprovesFollowers": false,
     "discoverable": true,
     "indexable": true,
