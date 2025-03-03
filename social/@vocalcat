@@ -1,0 +1,64 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1",
+    {
+      "manuallyApprovesFollowers": "as:manuallyApprovesFollowers",
+      "toot": "http://joinmastodon.org/ns#",
+      "featured": {
+        "@id": "toot:featured",
+        "@type": "@id"
+      },
+      "featuredTags": {
+        "@id": "toot:featuredTags",
+        "@type": "@id"
+      },
+      "alsoKnownAs": {
+        "@id": "as:alsoKnownAs",
+        "@type": "@id"
+      },
+      "movedTo": {
+        "@id": "as:movedTo",
+        "@type": "@id"
+      },
+      "schema": "http://schema.org#",
+      "PropertyValue": "schema:PropertyValue",
+      "value": "schema:value",
+      "discoverable": "toot:discoverable",
+      "suspended": "toot:suspended",
+      "memorial": "toot:memorial",
+      "indexable": "toot:indexable",
+      "attributionDomains": {
+        "@id": "toot:attributionDomains",
+        "@type": "@id"
+      }
+    }
+  ],
+  "id": "https://vocalcat.com/social/@vocalcat",
+  "type": "Person",
+  "following": "https://social.vocalcat.com/users/vocalcat/following",
+  "followers": "https://social.vocalcat.com/users/vocalcat/followers",
+  "inbox": "https://social.vocalcat.com/users/vocalcat/inbox",
+  "outbox": "https://social.vocalcat.com/users/vocalcat/outbox",
+  "featured": "https://social.vocalcat.com/users/vocalcat/collections/featured",
+  "featuredTags": "https://social.vocalcat.com/users/vocalcat/collections/tags",
+  "preferredUsername": "vocalcat",
+  "name": "vocalcat",
+  "summary": "",
+  "url": "https://social.vocalcat.com/@vocalcat",
+  "manuallyApprovesFollowers": false,
+  "discoverable": false,
+  "indexable": false,
+  "published": "2025-03-02T00:00:00Z",
+  "memorial": false,
+  "publicKey": {
+    "id": "https://social.vocalcat.com/users/vocalcat#main-key",
+    "owner": "https://social.vocalcat.com/users/vocalcat",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6m+A8GlXfGM0sBbpNHhW\n5sjl3O6TC7BRA1OuOTO25t70X2QnpSgm/a0WsZ6A8DhyPI7i8l6E3rPhVJxC5wZG\nbcxzbBNcewQwHt1YK48wdycr/VM2Bs3dXccVayA9ZxZbDUW/twOT3A6sIzEJYLkR\nRy3Xz6mdfRClmO+myUDdvHoGXCXQzNo/lqib6G3JZdYMRcV2TdWGOlVSHIL6lVZm\n+CHgnXhsJf0WbiVJdvr7ywgIkE9RbYK4vTM4ygtWnwf0DdiS9s9NKbW/qwgi7MqW\nLvtCdIsTEVHtiXPsaG2eBk1NF19UbpAZ+90oBAnFfdiQwgJYL/OzFJsHRgVcR+DF\nUQIDAQAB\n-----END PUBLIC KEY-----\n"
+  },
+  "tag": [],
+  "attachment": [],
+  "endpoints": {
+    "sharedInbox": "https://social.vocalcat.com/inbox"
+  }
+}
