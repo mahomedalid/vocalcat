@@ -1,13 +1,13 @@
 {  
     "subject": "acct:vocalcat@vocalcat.com",
     "aliases": [
-      "https://social.vocalcat.com/social/@vocalcat"
+      "https://social.vocalcat.com/users/vocalcat"
     ],
     "links": [
       {
         "rel": "self",
         "type": "application/activity+json",
-        "href": "https://social.vocalcat.com/social/@vocalcat"
+        "href": "https://social.vocalcat.com/users/vocalcat"
       }
     ]
 }
