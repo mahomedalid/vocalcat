@@ -1,13 +1,13 @@
 {  
-    "subject": "acct:direct@vocalcat.com",
+    "subject": "acct:vocalcat@vocalcat.com",
     "aliases": [
-      "https://mastodon.social/users/vocalcat"
+      "https://social.vocalcat.com/social/@vocalcat"
     ],
     "links": [
       {
         "rel": "self",
         "type": "application/activity+json",
-        "href": "https://mastodon.social/users/vocalcat"
+        "href": "https://social.vocalcat.com/social/@vocalcat"
       }
     ]
 }
